@@ -1,0 +1,31 @@
+:root {
+
+    /* Colors */
+
+    --background-primary: #ffffff;
+    --background-second: #132238;
+    --background-three: #A53DFF;
+
+    /* Margens, Paddings e Bordas */
+
+    --margin-body: 0px 300px;
+    --padding-cards: 40px;
+    --border-radius: 6px;
+
+    /* Transições */
+
+    --transition-1: all .3s ease;
+    --transition-2: all .4s ease;
+    --transition-3: all .5s ease;
+}
+
+* {
+    font-family: "Work Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
