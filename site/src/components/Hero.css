@@ -1,0 +1,194 @@
+.hero {
+    margin-top: 80px;
+    grid-column: span 12;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+    gap: 180px;
+    align-items: center;
+    transition: all .3s ease;
+}
+.container_info_hero  {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 30px;
+}
+.intro>h1 {
+    font-size: 72px;
+    font-weight: 600;
+    color: var(--background-second);
+}
+.intro>h2 {
+    font-size: 62px;
+    font-weight: 600;
+    color: var(--background-second);
+}
+.p_hero {
+    width: 600px;
+    color: #737373;
+}
+#btn_contato {
+    width: max-content;
+}
+.card_experience {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.card {
+    background-color: var(--background-primary);
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.08);
+    width: 194px;
+    height: 80px;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--border-radius);
+    transition: all .3s ease;
+}
+.text_card {
+    font-size: 20px;
+    color: #737373;
+}
+.p_card_hero {
+    color: #B6BAC1;
+}
+#ft_genival {
+    width: 536px;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    transition: all .3s ease;
+}
+@media (max-width: 1440px) {
+    .hero {
+        transition: all .3s ease;
+        grid-column: span 8;
+        gap: 60px;
+        justify-content: center;
+    }
+}
+@media (max-width: 1220px) {
+    .hero{
+        transition: all .3s ease;
+        grid-column: span 8;
+        gap: 60px;
+        justify-content: center;
+    }
+    #ft_genival {
+        transition: all .3s ease;
+        width: 300px;
+        height: 340px;
+        object-fit: cover;
+    }
+    .intro>h1 {
+        transition: all .3s ease;
+        font-size: 48px;
+        font-weight: 600;
+        color: var(--background-second);
+    }
+    .intro>h2 {
+        transition: all .3s ease;
+        font-size: 38px;
+        font-weight: 600;
+        color: var(--background-second);
+    }
+    .p_hero {
+        transition: all .3s ease;
+        width: 400px;
+        color: #737373;
+    }
+    .card {
+        transition: all .3s ease;
+        width: 180px;
+        height: 60px;
+    }
+    .container_info_hero{
+        transition: all .3s ease;
+        gap: 20px;
+    }
+}
+@media (max-width: 960px) {
+    .hero {
+        transition: all .3s ease;
+        grid-column: span 6;
+        gap: 24px;
+    }
+    .card_experience {
+        transition: all .3s ease;
+        gap: 10px;
+    }
+    .card {
+        transition: all .3s ease;
+        width: 140px;
+        height: 60px;
+    }
+    #ft_genival {
+        transition: all .3s ease;
+        width: 260px;
+        height: 340px;
+        object-fit: cover;
+    }
+    .text_card {
+        transition: all .3s ease;
+        font-size: 18px;
+    }
+    .p_card_hero {
+        transition: all .3s ease;
+        font-size: 14px;
+    }
+}
+@media (max-width: 720px) {
+    .hero {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        grid-column: span 4;
+    }
+    #ft_genival {
+        width: 400px;
+        object-fit: cover;
+    }
+    #btn_contato {
+        margin: 0 auto;
+    }
+    .card {
+        transition: all .3s ease;
+        width: 140px;
+        height: 60px;
+    }
+    .p_hero {
+        transition: all .3s ease;
+        width: 400px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 428px) {
+    #ft_genival {
+        width: 320px;
+    }
+    .p_hero {
+        transition: all .3s ease;
+        width: 380px;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+    .card {
+        transition: all .3s ease;
+        width: 120px;
+        height: 60px;
+    }
+    .text_card {
+        transition: all .3s ease;
+        font-size: 16px;
+    }
+    .p_card_hero {
+        transition: all .3s ease;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,104 @@
+.sobre {
+    grid-column: span 12;
+    padding: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    background-color: var(--background-primary);
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    height: max-content;
+    margin-top: 100px;
+    transition: all .3s ease;
+}
+.info_sobre {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.text_sobre {
+    font-size: 38px;
+    color: var(--background-second);
+}
+.p_sobre {
+    width: 600px;
+}
+.btn_and_redes {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.flex_links {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+#ft_genival_sobre {
+    width: 460px;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+}
+@media (max-width: 1220px) {
+    .sobre {
+        transition: all .3s ease;
+        grid-column: span 8;
+    }
+    #ft_genival_sobre {
+        width: 300px;
+    }
+    .text_sobre {
+        font-size: 28px;
+    }
+    .p_sobre {
+        width: 440px;
+    }
+}
+@media (max-width: 960px) {
+    .sobre {
+        transition: all .3s ease;
+        grid-column: span 6;
+        padding: 30px;
+    }
+    #ft_genival_sobre {
+        width: 260px;
+    }
+    .text_sobre {
+        font-size: 24px;
+    }
+    .p_sobre {
+        width: 400px;
+    }
+    .btn_and_redes {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
+    .flex_links {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+    }
+}
+@media (max-width: 720px) {
+    .sobre {
+        transition: all .3s ease;
+        grid-column: span 4;
+        padding: 30px;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        text-align: center;
+        height: max-content;
+    }
+    .btn_and_redes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+}
+@media (max-width: 428px) {
+
+}

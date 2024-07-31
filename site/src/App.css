@@ -26,6 +26,65 @@
     box-sizing: border-box;
 }
 body {
+    background-color: var(--background-primary);
+    position: relative;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
+}
+#root {
+    display: grid;
+    grid-template-columns: repeat(12, 100px);
+    justify-content: center;
+    gap: 24px;
+    margin: 0px 300px;
+    z-index: 1;
+    transition: var(--transition-2);
+}
+.App {
+    width: 100%;
+    grid-column: span 12;
+    transition: var(--transition-2);
+}
+@media (max-width: 1460px) {
+    #root {
+        transition: var(--transition-2);
+        grid-template-columns: repeat(10, 100px);
+    }
+    .App {
+        transition: var(--transition-2);
+        grid-column: span 10;
+    }
+}
+@media (max-width: 1220px) {
+    #root {
+        transition: var(--transition-2);
+        grid-template-columns: repeat(8, 100px);
+    }
+    .App {
+        transition: var(--transition-2);
+        grid-column: span 8;
+    }
+}
+@media (max-width: 960px) {
+    #root {
+        transition: var(--transition-2);
+        grid-template-columns: repeat(6, 100px);
+    }
+    .App {
+        transition: var(--transition-2);
+        grid-column: span 6;
+    }
+}
+@media (max-width: 720px) {
+    #root {
+        grid-template-columns: repeat(4, 100px);
+        gap: 14px;
+        margin: 0 auto;
+        transition: var(--transition-2);
+    }
+    .App {
+        transition: var(--transition-2);
+        grid-column: span 4;
+    }
 }

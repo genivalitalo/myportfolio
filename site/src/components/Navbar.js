@@ -31,9 +31,9 @@ const Navbar = () => {
             <button className='btn_menu' onClick={() => setOpenMenu(true)}>
                 <MenuOutlinedIcon />
             </button>
-            <Drawer open={openMenu} onClose={() => setOpenMenu(false)} anchor="left">
+            <Drawer open={openMenu} onClose={() => setOpenMenu(false)} anchor="right" sx={{}}>
                 <Box
-                    sx={{ width: 250 }}
+                    sx={{ width: 250}}
                     role="presentation"
                     onClick={() => setOpenMenu(false)}
                     onKeyDown={() => setOpenMenu(false)}

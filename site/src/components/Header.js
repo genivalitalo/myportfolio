@@ -8,6 +8,7 @@ const Header = () => {
         <header className="header">
             <div className="container_logo">
                 <img id="logo" src={Logo} alt="logo" />
+                <h2 className="name_logo">Genival</h2>
             </div>
             <div className="container_header">
                 <Navbar />

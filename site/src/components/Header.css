@@ -1,6 +1,31 @@
 header.header{
+    margin-top: 20px;
+    padding: 14px 14px;
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 40px;
+    grid-column: span 12;
+    background-color: var(--background-primary);
+    border-radius: var(--border-radius);
+}
+#logo {
+    width: 48px;
+}
+.container_logo {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+@media (max-with: 720px) {
+    header.header {
+        grid-column: span 4;
+    }
+}
+@media (max-width: 428px) {
+    header.header {
+        justify-content: center;
+    }
 }

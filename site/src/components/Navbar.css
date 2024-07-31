@@ -8,13 +8,40 @@ a {
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
+    transition: all .3s ease;
 }
 #btn_contato {
     padding: 10px 14px;
     background-color: var(--background-three);
     border-radius: var(--border-radius);
     color: var(--background-primary);
+    transition: all .3s ease;
+}
+#btn_contato:hover {
+    transition: all .3s ease;
+    background-color: #9537E6;
 }
 .btn_menu {
     display: none;
+    background-color: transparent;
+    border: none;
+    color: var(--background-second);
+    padding: 5px;
+    transition: all .3s ease;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.btn_menu:hover {
+    transition: all .3s ease;
+    background-color: var(--background-three);
+    color: var(--background-primary);
+}
+
+@media (max-width: 1220px) {
+    .btn_menu {
+        display: block;
+    }
+    .container_navbar {
+        display: none;
+    }
 }
