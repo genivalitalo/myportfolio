@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import Ft from 'C:/projetos_frontend/myportfolio/src/assets/ITALO.png'
+import Ft from 'C:/projetos_frontend/myportfolio/src/assets/italo.png'
 
 export const Hero = () => {
   return (
