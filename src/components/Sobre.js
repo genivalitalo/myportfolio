@@ -4,7 +4,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import Ft from 'C:/projetos_frontend/myportfolio/site/src/assets/ITALO.png'
+import Ft from 'C:/projetos_frontend/myportfolio/src/assets/ITALO.png'
 
 const Sobre = () => {
   return (

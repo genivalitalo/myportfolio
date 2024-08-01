@@ -1,9 +1,9 @@
 import React from 'react'
 import './Skills.css'
-import IconHtml from 'C:/projetos_frontend/myportfolio/site/src/assets/html5-logo-240.png'
-import IconCss from 'C:/projetos_frontend/myportfolio/site/src/assets/css3-logo-240.png'
-import IconJava from 'C:/projetos_frontend/myportfolio/site/src/assets/javascript-logo-240.png'
-import IconReact from 'C:/projetos_frontend/myportfolio/site/src/assets/react-logo-240.png'
+import IconHtml from 'C:/projetos_frontend/myportfolio/src/assets/html5-logo-240.png'
+import IconCss from 'C:/projetos_frontend/myportfolio/src/assets/css3-logo-240.png'
+import IconJava from 'C:/projetos_frontend/myportfolio/src/assets/javascript-logo-240.png'
+import IconReact from 'C:/projetos_frontend/myportfolio/src/assets/react-logo-240.png'
 
 const Skills = () => {
   return (

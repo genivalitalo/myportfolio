@@ -1,6 +1,6 @@
 import React from 'react'
 import './Projetos.css'
-import FtProjetos1 from 'C:/projetos_frontend/myportfolio/site/src/assets/sitemundo.png'
+import FtProjetos1 from 'C:/projetos_frontend/myportfolio/src/assets/sitemundo.png'
 import TrendingFlatIcon from '@mui/icons-material/TrendingFlat';
 
 const Projetos = () => {
