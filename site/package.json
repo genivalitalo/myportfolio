@@ -1,6 +1,8 @@
 {
+  "homepage": "https://genivalitalo.github.io/myportfolio/",
   "name": "site",
   "version": "0.1.0",
+  "type": "module",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.13.0",
@@ -21,6 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+    
   },
   "eslintConfig": {
     "extends": [
