@@ -3,7 +3,7 @@ import './Contato.css'
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import EmailOutlinedIcon from '@mui/icons-material/EmailOutlined';
 import LocalPhoneOutlinedIcon from '@mui/icons-material/LocalPhoneOutlined';
-import LogoForm from "C:/projetos_frontend/myportfolio/src/assets/Logo.png"
+import LogoForm from "C:/projetos_frontend/myportfolio/src/assets/logo.png"
 
 
 const Contato = () => {

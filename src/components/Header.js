@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import './Header.css'
 import Navbar from "./Navbar";
-import Logo from "C:/projetos_frontend/myportfolio/src/assets/Logo.png"
+import Logo from "C:/projetos_frontend/myportfolio/src/assets/logo.png"
 
 const Header = () => {
     return (
