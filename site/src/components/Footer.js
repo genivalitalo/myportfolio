@@ -13,20 +13,22 @@ const Footer = () => {
                 </div>
                 <p className="description_footer">Se você chegou até aqui, muito obrigado!</p>
             </div>
-            <div className="container_links">
-                <h4 className="text_links_footer">Links</h4>
-                <a href="#inicio" className="link_footer">Início</a>
-                <a href="#sobre" className="link_footer">Sobre Mim</a>
-                <a href="#projetos" className="link_footer">Meus Projetos</a>
-                <a href="#skills" className="link_footer">Minhas Skills</a>
-                <a href="#contato" className="link_footer">Contato</a>
-            </div>
-            <div className="container_links">
-                <h4 className="text_links_footer">Redes Sociais</h4>
-                <a href="#inicio" className="link_footer">GitHub</a>
-                <a href="#sobre" className="link_footer">Linkedin</a>
-                <a href="#projetos" className="link_footer">Facebook</a>
-                <a href="#skills" className="link_footer">Instagram</a>
+            <div class="flex_links">
+                <div className="container_links">
+                    <h4 className="text_links_footer">Links</h4>
+                    <a href="#inicio" className="link_footer">Início</a>
+                    <a href="#sobre" className="link_footer">Sobre Mim</a>
+                    <a href="#projetos" className="link_footer">Meus Projetos</a>
+                    <a href="#skills" className="link_footer">Minhas Skills</a>
+                    <a href="#contato" className="link_footer">Contato</a>
+                </div>
+                <div className="container_links">
+                    <h4 className="text_links_footer">Redes Sociais</h4>
+                    <a href="#inicio" className="link_footer">GitHub</a>
+                    <a href="#sobre" className="link_footer">Linkedin</a>
+                    <a href="#projetos" className="link_footer">Facebook</a>
+                    <a href="#skills" className="link_footer">Instagram</a>
+                </div>
             </div>
             <div className="container_form">
                 <h4 className="text_links_footer">Fale comigo:</h4>

@@ -33,6 +33,7 @@ body {
     overflow-x: hidden;
 }
 #root {
+    position: relative;
     display: grid;
     grid-template-columns: repeat(12, 100px);
     justify-content: center;
@@ -42,10 +43,23 @@ body {
     transition: var(--transition-2);
 }
 .App {
+    position: relative;
     width: 100%;
     grid-column: span 12;
     transition: var(--transition-2);
 }
+/* .sombra1 {
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    opacity: 0.8;
+    background-color: #7C2EBF;
+    border-radius: 1000px;
+    box-shadow: 600px 600px 600px;
+    filter: blur(600px);
+    margin-left: 600px;
+    margin-top: 40px;
+} */
 @media (max-width: 1460px) {
     #root {
         transition: var(--transition-2);
@@ -87,4 +101,12 @@ body {
         transition: var(--transition-2);
         grid-column: span 4;
     }
+}
+@media (max-width: 420px) {
+    #root {
+        grid-template-columns: repeat(4, 85px);
+        gap: 14px;
+        margin: 0 auto;
+        transition: var(--transition-2);
+}
 }

@@ -59,15 +59,20 @@
         transition: all .3s ease;
         grid-column: span 6;
         padding: 30px;
+        grid-template-columns: auto;
+        justify-content: center;
+        text-align: center;
+        gap: 24px;
     }
     #ft_genival_sobre {
-        width: 260px;
+        width: 300px;
     }
     .text_sobre {
-        font-size: 24px;
+        font-size: 32px;
     }
     .p_sobre {
-        width: 400px;
+        text-align: center;
+        margin: 0 auto;
     }
     .btn_and_redes {
         display: flex;
@@ -75,9 +80,10 @@
         gap: 24px;
     }
     .flex_links {
-        display: flex;
-        align-items: center;
         gap: 14px;
+    }
+    .btn_and_redes {
+        flex-direction: column;
     }
 }
 @media (max-width: 720px) {
@@ -85,7 +91,7 @@
         transition: all .3s ease;
         grid-column: span 4;
         padding: 30px;
-        grid-template-columns: 1fr;
+        grid-template-columns: 320px;
         justify-content: center;
         align-items: center;
         gap: 24px;
@@ -98,7 +104,16 @@
         align-items: center;
         gap: 24px;
     }
-}
-@media (max-width: 428px) {
-
+    .p_sobre {
+        text-align: center;
+        margin: 0 auto;
+        width: 320px;
+    }
+    .text_sobre {
+        font-size: 28px;
+    }
+    .flex_links {
+        justify-content: center;
+        gap: 10px;
+    }
 }

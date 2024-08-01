@@ -148,3 +148,27 @@
     }
 
 }
+@media (max-width: 420px) {
+    .projetos {
+        transition: all .3s ease;
+        grid-column: span 4;
+    }
+    .container_card_projetos {
+        transition: all .3s ease;
+        gap: 40px;
+        grid-template-columns: 320px;
+    }
+    .p_projeto {
+        transition: all .3s ease;
+        width: 320px;
+    }
+    .text_projetos {
+        transition: all .3s ease;
+        font-size: 40px;
+    }
+    #img_projeto {
+        transition: all .3s ease;
+        width: 320px;
+        object-fit: cover;
+    }
+} 

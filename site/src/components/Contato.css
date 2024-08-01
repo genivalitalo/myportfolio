@@ -10,6 +10,7 @@
     background-color: var(--background-primary);
     box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.08);
     align-items: center;
+    transition: all .3s ease;
 }
 .info_contato {
     display: flex;
@@ -28,6 +29,7 @@
     font-size:  16px;
     color: #737373;
     width: 510px;
+    transition: all .3s ease;
 }
 .text_contato {
     font-size:  38px;
@@ -47,6 +49,7 @@
     align-items: center;
     gap: 14px;
     border-radius: 10px;
+    transition: all .3s ease;
 }
 .form_contato {
     padding: 48px;
@@ -105,4 +108,98 @@ input:focus {
 .btn_form:hover {
     transition: all .3s ease;
     background-color: #9537E6;
+}
+@media (max-width: 1440px) {
+    .contato {
+        transition: all .3s ease;
+        grid-column: span 8;
+        grid-template-columns: repeat(2, 500px);
+    }
+}
+@media (max-width: 1220px) {
+    .contato {
+        transition: all .3s ease;
+        grid-column: span 8;
+        grid-template-columns: repeat(2, 400px);
+        padding: 40px;
+    }
+    .p_contato {
+        transition: all .3s ease;
+        font-size:  16px;
+        width: 400px;
+    }
+    
+    .cards {
+        transition: all .3s ease;
+        width: 400px;
+    }
+}
+@media (max-width: 960px) {
+    .contato {
+        transition: all .3s ease;
+        grid-column: span 6;
+        grid-template-columns: 440px;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+    .cards {
+        transition: all .3s ease;
+        width: 440px;
+    }
+    .p_contato {
+        transition: all .3s ease;
+        font-size:  16px;
+        width: 440px;
+        text-align: center;
+    }
+    .text_contato {
+        text-align: center;
+    }
+}
+@media (max-width: 720px) {
+    .contato {
+        transition: all .3s ease;
+        grid-column: span 4;
+        grid-template-columns: 380px;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+    .btn_and_redes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+    .cards {
+        transition: all .3s ease;
+        width: 380px;
+    }
+    .p_contato {
+        font-size: 14px;
+        margin: 0 auto;
+        width: 380px;
+    }
+}
+@media (max-width: 420px) {
+    .contato {
+        transition: all .3s ease;
+        grid-column: span 4;
+        grid-template-columns: 320px;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        padding: 14px;
+    }
+    .p_contato {
+        font-size: 12px;
+        margin: 0 auto;
+        width: 320px;
+    }
+    .cards {
+        transition: all .3s ease;
+        width: 320px;
+    }
+    
 }
